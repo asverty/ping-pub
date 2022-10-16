@@ -38,22 +38,17 @@ function processMenu() {
   }
   chainMenus.push({
     title: 'Github',
-    href: 'https://github.com/ping-pub/explorer',
+    href: 'https://github.com/asverty',
     icon: 'GithubIcon',
   })
   chainMenus.push({
-    title: 'Discord',
-    href: 'https://discord.gg/CmjYVSr6GW',
-    icon: 'EyeIcon',
-  })
-  chainMenus.push({
     title: 'Twitter',
-    href: 'https://twitter.com/ping_pub',
+    href: 'https://twitter.com/alekh_w',
     icon: 'TwitterIcon',
   })
   chainMenus.push({
     title: 'Telegram',
-    href: 'https://t.me/pingpub',
+    href: 'https://t.me/asverty',
     icon: 'SendIcon',
   })
 
