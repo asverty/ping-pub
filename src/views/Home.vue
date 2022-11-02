@@ -7,7 +7,7 @@
         <h1
           class="text-primary display-4 font-weight-bolder d-none d-md-block"
         >
-          Haqq testnet dashboard<small class="flow-left">Beta</small>
+          anode mainnet & testnet explorer<small class="flow-left">Beta</small>
         </h1>
       </div>
     </b-link>
