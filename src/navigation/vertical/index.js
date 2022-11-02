@@ -23,19 +23,19 @@ function processMenu() {
     })
   }
   chainMenus.push({ header: 'LINKS' })
-  // if (isTestnet()) {
-  //   chainMenus.push({
-  //     title: 'Mainnet Explorer',
-  //     href: 'https://ping.pub',
-  //     icon: 'ChromeIcon',
-  //   })
-  // } else {
-  //   chainMenus.push({
-  //     title: 'Testnet Explorer',
-  //     href: 'http://testnet.ping.pub',
-  //     icon: 'LifeBuoyIcon',
-  //   })
-  // }
+  if (isTestnet()) {
+    chainMenus.push({
+      title: 'Mainnet Explorer',
+      href: 'https://ping.pub',
+      icon: 'ChromeIcon',
+    })
+  } else {
+    chainMenus.push({
+      title: 'Testnet Explorer',
+      href: 'http://testnet.ping.pub',
+      icon: 'LifeBuoyIcon',
+    })
+  }
   chainMenus.push({
     title: 'Github',
     href: 'https://github.com/asverty',
