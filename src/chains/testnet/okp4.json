@@ -1,19 +1,19 @@
 {
-    "chain_name": "okp4",
-    "coingecko": "",
-    "api": ["https://okp4-testnet-api.polkachu.com/"],
-    "rpc": ["https://okp4-testnet-rpc.polkachu.com/"],
+    "chain_name": "OKP4 testnet",
+    "api": ["https://api.testnet.okp4.network"],
+    "rpc": ["https://api.testnet.okp4.network:443/rpc"],
     "snapshot_provider": "",
-    "sdk_version": "0.46.0",
-    "coin_type": "60",
-    "min_tx_fee": "3000000000000000",
+    "sdk_version": "0.46.2",
+    "coin_type": "118",
+    "min_tx_fee": "800",
     "addr_prefix": "okp4",
     "logo": "/logos/okp4.png",
-    "assets": [{
+    "assets": [
+      {
         "base": "uknow",
         "symbol": "KNOW",
         "exponent": "6",
-        "coingecko_id": "",
         "logo": "/logos/okp4.png"
-    }]
-}
+      }
+    ]
+  }
