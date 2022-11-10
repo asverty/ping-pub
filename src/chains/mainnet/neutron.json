@@ -1,7 +1,6 @@
 {
     "chain_name": "neutron",
     "coingecko": "neutron",
-    // "api": ["https://testnet-rest.osmosis.zone", "https://lcd.osmo-test.ccvalidators.com", "https://osmosistest-lcd.quickapi.com"],
     "rpc": ["http://167.235.7.34:56657/"],
     "snapshot_provider": "",
     "sdk_version": "0.45.5",
@@ -13,6 +12,5 @@
         "base": "untrn",
         "symbol": "NTRN",
         "exponent": "6",
-        // "logo": "/logos/neutron.jpg"
     }]
 }
